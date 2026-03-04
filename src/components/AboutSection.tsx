@@ -2,28 +2,27 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-6">
-      <div className="max-w-3xl mx-auto">
+    <section id="about" className="py-28 px-6">
+      <div className="max-w-3xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6 }}
         >
-          <h2 className="text-2xl font-bold mb-2">
-            <span className="text-primary font-mono text-sm mr-2">01.</span>
-            about_me
+          <p className="text-primary text-sm font-medium tracking-widest uppercase mb-3">About</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-6">
+            Designing for the ecosystem<br />people love.
           </h2>
-          <div className="h-px bg-border mb-8 mt-2" />
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
+          <div className="space-y-4 text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             <p>
-              I'm a passionate developer who loves turning complex problems into simple, 
-              elegant solutions. With a strong foundation in modern web technologies, 
-              I focus on writing clean, maintainable code that scales.
+              I'm a developer deeply rooted in the Apple ecosystem — building native 
+              iOS, macOS, and watchOS experiences with Swift and SwiftUI. I believe in 
+              the intersection of technology and the liberal arts.
             </p>
             <p>
-              When I'm not coding, you'll find me contributing to open source projects, 
-              exploring new technologies, or writing about software development.
+              My approach follows Apple's Human Interface Guidelines while pushing 
+              creative boundaries. Every pixel matters, every animation tells a story.
             </p>
           </div>
         </motion.div>
