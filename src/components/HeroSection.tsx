@@ -36,7 +36,7 @@ const HeroSection = () => {
         >
           <p className="font-mono text-primary text-sm mb-6 tracking-widest uppercase">Hello World</p>
           <h1 className="text-5xl sm:text-7xl font-semibold tracking-tight mb-4">
-            <span className="text-gradient-apple">Your Name</span>
+            <span className="text-gradient-apple">Rotem Ravid</span>
           </h1>
           <div className="font-mono text-xl sm:text-2xl text-muted-foreground mb-8 h-8">
             <span>{displayed}</span>
